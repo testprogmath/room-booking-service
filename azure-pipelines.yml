@@ -12,6 +12,3 @@ pool:
 steps:
 - script: docker pull annakhvorostyanova/room-reservation
   displayName: 'Pull docker image'
-
-- script: docker run annakhvorostyanova/room-reservation
-  displayName: 'Docker run'
